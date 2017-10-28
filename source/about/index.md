@@ -15,9 +15,10 @@ title: 关于
 凌：凌霄  
 Youhsuky， you：你；husky，哈士奇  
 
-出没于:
-* 邮箱 bozhaoli1022@gmail.com
-* Instagram: [Joshua@Instagram](https://www.instagram.com/joshuali_youhusky/)
-* Linkedin: [Bozhao Li@Linkedin](https://www.linkedin.com/in/bozhaoli)
-* 展示页面: [展示-待更新](http://www.bozhaoli.info)
+出没于:  
 
+- 邮箱 bozhaoli1022@gmail.com
+- GitHub: [youhusky@GitHub](https://www.github.com/youhusky)
+- Instagram: [Joshua@Instagram](https://www.instagram.com/joshuali_youhusky/)
+- Linkedin: [Bozhao Li@Linkedin](https://www.linkedin.com/in/bozhaoli)
+- 展示页面: [Static Page](http://www.bozhaoli.info)
