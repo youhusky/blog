@@ -13,7 +13,7 @@ Data Engineer
 # 参考
 1. 易梦前尘前辈的地里帖子 [链接](http://www.1point3acres.com/bbs/thread-223228-1-1.html)
 2. Github总结 [链接] (https://github.com/shi-edward/Company-Algorithm-Solution/tree/master/src/indeed)
-
+<!--more-->
 # 题目
 当时根据地里的总结了一下题目，但是电话面试的时候还是出了一道我似乎见过的但是没有复习到题目，直接给出了brute force解，优化的时候有点紧张就没有答上来....就最后跪了
 ## UnrolledLinked List
