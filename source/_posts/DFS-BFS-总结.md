@@ -2,9 +2,9 @@
 title: DFS-BFS 总结
 comments: true
 date: 2018-03-10 14:49:35
-updated: 2018-03-10 14:49:35
-categories:
-tags:
+updated: 2018-03-11 14:49:35
+categories: Leetcode
+tags: [DFS, BFS]
 ---
 # DFS 
 ## Matrix
@@ -25,6 +25,7 @@ def dfs(i,j,matrix):
 	...
 	
 ```
+<!--more-->
 ### 733. Flood Fill
 最简单的DFS版本
 

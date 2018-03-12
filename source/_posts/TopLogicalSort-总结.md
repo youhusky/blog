@@ -33,6 +33,7 @@ while queue:
 		if indegree[succ] == 0:
 			queue.append(succ)
 ```
+<!--more-->
 ### 207. Course Schedule
 
 ```python
