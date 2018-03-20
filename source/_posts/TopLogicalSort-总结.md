@@ -108,7 +108,7 @@ class Solution(object):
 ### 802. Find Eventual Safe States
 也是一道可以用这种方法做的题，就是经过拓扑排序后出度为0的点输出出来就好。
 
-```
+```python
 class Solution(object):
     def eventualSafeNodes(self, graph):
         """
