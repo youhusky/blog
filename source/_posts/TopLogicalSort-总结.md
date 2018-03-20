@@ -2,7 +2,7 @@
 title: TopLogicalSort 总结
 comments: true
 date: 2018-03-11 13:39:51
-updated: 2018-03-11 13:39:51
+updated: 2018-03-20 13:39:51
 categories: Leetcode
 tags: TopLogicalSort
 ---
@@ -104,6 +104,40 @@ class Solution(object):
                 if indegree[succ] == 0:
                     queue.append(succ)
         return res if len(res) == numCourses else []
+```
+### 802. Find Eventual Safe States
+也是一道可以用这种方法做的题，就是经过拓扑排序后出度为0的点输出出来就好。
+
+```
+class Solution(object):
+    def eventualSafeNodes(self, graph):
+        """
+        :type graph: List[List[int]]
+        :rtype: List[int]
+        """
+        outdegree = [0] * len(graph)
+        indegree = [[] for _ in range(len(graph))]
+
+        for i in range(len(graph)):
+            outdegree[i] = len(graph[i])
+            for j in range(len(graph[i])):
+                indegree[graph[i][j]].append(i)
+                
+        queue = []
+        for i in range(len(outdegree)):
+            if outdegree[i] == 0:
+                queue.append(i)
+        res = []   
+        while queue:
+            node = queue.pop(0)
+            res.append(node)
+            if indegree[node]:
+                for rest in indegree[node]:
+                    outdegree[rest] -= 1
+                    if outdegree[rest] == 0:
+                        queue.append(rest)
+                    
+        return sorted(res)
 ```
 ### 444. Sequence Reconstruction
 这道题有两个点，一个是入度为0的只能有一个；二是如何控制只有一个数字的list-虽说对结果没啥影响，不过还要处理这么一个case[1],[[1],[1],[1]] 挺无聊的
