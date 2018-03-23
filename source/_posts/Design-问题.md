@@ -82,7 +82,7 @@ class LRUCache(object):
 # param_1 = obj.get(key)
 # obj.put(key,value)
 ```
-
+<!--more-->
 ### 155. Min Stack
 这道题就是用stack来存sofar的最小值
 
