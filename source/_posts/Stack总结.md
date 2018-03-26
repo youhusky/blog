@@ -226,3 +226,80 @@ class Solution(object):
             
         return res
 ```
+### 316. Remove Duplicate Letters
+
+```python
+class Solution(object):
+    def removeDuplicateLetters(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        stack = []
+        dic = dict()
+        for char in s:
+            dic[char] = dic.get(char, 0) + 1
+            
+        for char in s:
+            dic[char] -= 1
+            if char in stack:
+                continue
+            else:
+                while stack and ord(char) < ord(stack[-1]) and dic[stack[-1]] > 0:
+                    stack.pop()
+            stack.append(char)
+        return "".join(stack)
+```
+
+## 稍难题
+### 84. Largest Rectangle in Histogram
+维持一个递增stack，碰到一个比栈顶元素小的数，不断比较，更新最大面积
+
+```python
+class Solution(object):
+    def largestRectangleArea(self, heights):
+        """
+        :type heights: List[int]
+        :rtype: int
+        """
+        res = 0
+        stack = []
+        for i in range(len(heights)+1):
+            height = heights[i] if i!= len(heights) else 0
+            while stack and height <= heights[stack[-1]]:
+                h = heights[stack.pop()]
+                w = i - stack[-1] -1 if stack else i
+                res = max(res, h*w)
+            stack.append(i)
+        return res
+```
+### 85. Maximal Rectangle
+同样的操作，只是这次是把上一道题的高度，变成矩阵中连续长度
+
+```python
+class Solution(object):
+    def maximalRectangle(self, matrix):
+    	# O(m^2)
+        if not matrix or not matrix[0]:
+            return 0
+        n = len(matrix[0])
+        # init heights array 
+        height = [0] * (n + 1)
+        ans = 0
+        # calculate each row
+        for row in matrix:
+            for i in range(n):
+                # count next level '1'
+                height[i] = height[i] + 1 if row[i] == '1' else 0
+                
+            stack = []
+            
+            for i in range(n + 1):
+                while stack and height[i] <= height[stack[-1]]:
+                    h = height[stack.pop()]
+                    # if not stack means left boundary is zero then width is i else is the stack[-1] index
+                    w = i - 1 - stack[-1] if stack else i
+                    ans = max(ans, h * w)
+                stack.append(i)
+        return ans
+```
