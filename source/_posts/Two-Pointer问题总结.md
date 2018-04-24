@@ -71,6 +71,7 @@ class Solution(object):
             
         return ans
 ```
+<!--more-->
 ### 424. Longest Repeating Character Replacement
 这道题的关键是最多可以替换k个字母，所以维护窗口的size是max出现字母的次数，剩下的都要替换
 

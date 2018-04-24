@@ -66,7 +66,7 @@ class Trie(object):
             curr = curr.nodes[char]
         curr.isword = True
 ```
-
+<!--more-->
 ### Array
 We use array can save time but need to create length at least 26 to 256. Key is everytime we need to calculate index `ord(char)-97`
 
