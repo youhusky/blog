@@ -7,7 +7,7 @@ title: Joshua
 subtitle:
 description:
 author: Joshua
-language: 
+language: en
 timezone:
 
 # URL
@@ -121,4 +121,4 @@ symbols_count_time:
   symbols: true
   time: true
   total_symbols: true
-  total_time: true
+  total_time: false
