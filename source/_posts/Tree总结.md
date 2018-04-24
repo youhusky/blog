@@ -2,7 +2,7 @@
 title: Tree总结
 comments: true
 date: 2017-09-24 14:50:36
-updated: 2017-10-02 14:50:36
+updated: 2018-04-24 14:50:36
 categories: [Tree, DFS, BFS]
 tags: Leetcode
 ---
@@ -423,6 +423,49 @@ class Solution(object):
                 size -= 1
             res.append(sum(temp)/float(len(temp)))
         return res  
+```
+### 314. Binary Tree Vertical Order Traversal
+也是BFS traverse题，中间存贮index的值
+
+```python
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution(object):
+    def verticalOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        if not root:
+            return []
+        queue = [(root,0)]
+        dic = dict()
+        while queue:
+            node, index = queue.pop(0)
+            if node.left:
+                queue.append((node.left, index-1))
+            if node.right:
+                queue.append((node.right, index + 1))
+            if index not in dic:
+                dic[index] = []
+            dic[index].append(node.val)
+        minx,maxx = float('inf'), float('-inf')
+        for key in dic.keys():
+            minx = min(minx, key)
+            maxx = max(maxx, key)
+            
+        res = [0] * (maxx - minx + 1)
+        
+        for key in dic:
+            res[key-minx] = dic[key]
+        
+        return res
+        
 ```
 # Path系列问题
 ## 技巧
