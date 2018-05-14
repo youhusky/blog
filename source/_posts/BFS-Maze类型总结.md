@@ -3,8 +3,8 @@ title: BFS-Board类型总结
 comments: true
 date: 2017-09-10 15:13:49
 updated: 2017-09-10 15:13:49
-categories: [BFS, DFS]
-tags: Leetcode
+categories: Leetcode
+tags: [BFS, DFS]
 ---
 
 # Maze

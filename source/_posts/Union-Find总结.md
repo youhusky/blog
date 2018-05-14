@@ -3,8 +3,8 @@ title: Union-Find总结
 comments: true
 date: 2017-09-18 14:53:14
 updated: 2017-09-18 14:53:14
-categories: [Union-Find, DFS]
-tags: Leetcode
+categories: Leetcode
+tags: [Union-Find, DFS]
 ---
 # Union Find 总结
 ## 介绍

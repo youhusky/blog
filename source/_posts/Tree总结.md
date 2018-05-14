@@ -3,8 +3,8 @@ title: Tree总结
 comments: true
 date: 2017-09-24 14:50:36
 updated: 2018-04-24 14:50:36
-categories: [Tree, DFS, BFS]
-tags: Leetcode
+categories: Leetcode
+tags: [Tree, DFS, BFS]
 ---
 # Tree的性质
 

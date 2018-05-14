@@ -3,7 +3,7 @@ title: Jobs and Algorithms Summary
 comments: true
 date: 2017-12-15 13:18:19
 updated: 2017-12-15 17:18:19
-categories: Leetcode
+categories: Interview
 tags: Website
 ---
 
@@ -20,6 +20,8 @@ tags: Website
 7. [LingOffer (Refer)](https://lingoffer.com/resource)
 8. [Hackerrank](https://www.hackerrank.com/)
 9. [某一次Bittiger分享的公司和HR邮箱PPT](https://bittigerfiles.s3.amazonaws.com/Company%20Slides%20for%20Career%20Meetup.pdf?nsukey=ITLZW1c%2BEgWMA0N%2BJBaXv%2FTqZfXkpCvREiPlHgVeBcN7soSoXYRWytE327M0R6ViNZGxVxz4LfMcE2hmJ6AvzeEtV9DgVfjU7qsgBq04n9qO0o032Ohq0bV%2BdG91IBWmq2w2vNgSuFQOtYWka9zmt5vN5L4WSfgI8EjHhSQQfLBBiv0KDTDXhWsX40T1gx3a)
+
+<!--more-->
 
 # 算法
 ## Python 党

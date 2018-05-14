@@ -3,8 +3,8 @@ title: Two Pointer问题总结
 comments: true
 date: 2017-10-24 21:56:46
 updated: 2018-04-24 21:56:46
-categories:
-tags: Leetcode
+categories: Leetcode
+tags: TwoPointer
 ---
 ### 209. Minimum Size Subarray Sum
 这道题没有那么多复杂的计算size方法，只是和大于k后，左移一位

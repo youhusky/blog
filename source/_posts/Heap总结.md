@@ -3,8 +3,8 @@ title: Heap总结
 comments: true
 date: 2017-09-20 21:07:39
 updated: 2018-03-20 21:07:39
-categories: [heap]
-tags: Leetcode
+categories: Leetcode
+tags: Heap
 ---
 # heapq--堆数据结构
 
@@ -21,6 +21,8 @@ for all k, counting elements from zero.`
 堆是完全二叉树或者近似二叉树，它的各个节点的键值都有固定对应的的数字，根节点（即root,最上面起始位置）是0，若父节点为heap[k]，则子节点为heap[2*k+1]和heap[2*k+2]。父节点对应的值总是小于或者等于子节点，称为最小堆。对应的，父节点的值总是大于或者等于子节点，称为最大堆。**在heapq中，使用的是最小堆。**
 
 正因为堆的这种特殊结构，使得通过heapq模块，可以快速获取一个列表的前N个最大(小)值，即Top N。
+
+<!--more-->
 
 ## 特点 
 这里，可能我们不禁要问，python不是内置了sort方法用来排序么？

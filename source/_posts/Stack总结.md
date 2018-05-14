@@ -81,6 +81,8 @@ class MyStack(object):
 # param_3 = obj.top()
 # param_4 = obj.empty()
 ```
+
+<!--more-->
 ### 232. Implement Queue using Stacks
 用两个stack来存，输出的时候再全部放入到output的stack中
 

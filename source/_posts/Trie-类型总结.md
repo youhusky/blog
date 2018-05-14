@@ -3,8 +3,8 @@ title: Trie 类型总结
 comments: true
 date: 2018-04-22 16:32:32
 updated: 2018-04-22 16:32:32
-categories: Trie
-tags: Leetcode
+categories: Leetcode
+tags: Trie
 ---
 # Introduce to Trie
 ## What is Trie
