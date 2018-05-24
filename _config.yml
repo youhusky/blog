@@ -90,7 +90,11 @@ baidusitemap:
 deploy: 
   type: heroku
   repo: https://git.heroku.com/joshuablog.git
-
+# Security
+##
+encrypt:
+    enable: true
+    
 filter_optimize:
   enable: false
   # remove static resource query string

@@ -5,6 +5,8 @@ date: 2017-04-20 20:50:04
 updated: 2017-04-21 15:01:04
 categories: Technology
 tags: 配置
+password: 111111
+message: Welcome to my blog, enter password to read.
 ---
 # 部署
 ## Hexo原生配置
