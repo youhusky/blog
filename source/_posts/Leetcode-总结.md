@@ -13,6 +13,7 @@ top: 8
 
 # 我的总结
 ## 套路
+**大部分来自天纯的pdf笔记  **  
 如果问最短，最少，BFS  如果问连通性，静态就是 DFS,BFS，动态就 UF  如果问依赖性就 topo sort  DAG 的问题就 dfs+memo  矩阵和 Array 通常都是 DP  问数量的通常都是 DP  问是否可以，也很有可能 DP  求所有解的，基本 backtracking  排序总是可以想一想的  
 万事总可以想HashMap  
 找规律试试Stack
