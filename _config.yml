@@ -26,6 +26,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - 'js/av-core-mini-0.6.4.js'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -63,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: next-reloaded
 avatar: /uploads/avatar.jpg
 word_count: true
 
@@ -83,8 +84,8 @@ social:
 
 sitemap:
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
+# baidusitemap:
+  # path: baidusitemap.xml
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
@@ -96,14 +97,14 @@ encrypt:
     enable: true
     
 filter_optimize:
-  enable: false
+  enable: true
   # remove static resource query string
   #   - like `?v=1.0.0`
   remove_query_string: true
   # remove the surrounding comments in each of the bundled files
   remove_comments: false
   css:
-    enable: true
+    enable: false
     # bundle loaded css file into the one
     bundle: true
     # use a script block to load css elements dynamically
