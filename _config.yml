@@ -26,7 +26,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - 'js/av-core-mini-0.6.4.js'
 
 # Writing
 new_post_name: :title.md # File name of new posts
