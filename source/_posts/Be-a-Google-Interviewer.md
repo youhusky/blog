@@ -57,12 +57,12 @@ No and it is banned from the Google Interview Question List.
 * 在恰当的时候给出hint，指出一条道路而不是任由对方在错误的道路上不断徘徊尝试
 * A Timer，把控时间
 * Involved
-* 记录对方讨论的思路
+* **记录对方讨论的思路**
 
 ### Not to be
-* 进行需要集中注意力的Work Coding
-* 刷微信朋友圈
-* 想着周末去哪玩/约谁
+* *进行需要集中注意力的Coding*
+* *刷微信朋友圈*
+* *想着周末去哪玩/约谁*
 
 ### 优秀者
 
@@ -77,6 +77,7 @@ No and it is banned from the Google Interview Question List.
 
 * 怎么表现这么差，phone是怎么放过来的
 * 就是有点紧张，时间上来不及，快结束的时候终于想出来正确思路了
+* Coding磕磕绊绊而且怎么不说话，能力不止于此但自己想帮一把都没办法
 * Coding没问题，就是嵌套IF，各种条件揉在一起
 * 表现不错，Follow Up没答上来是因为没时间了
 * 给我上了一课！TA的算法我要记下来！
@@ -85,7 +86,7 @@ No and it is banned from the Google Interview Question List.
 所以别看一个session只有45分钟，本着对candidate但负责的角度，实际上你的时间成本大于90分钟
 
 # 个人Rubic
-做出题来是能否达到Linear Hire的标准，答对Follow Up是Strong Hire的标准。
+做出题来是能否达到Linear Hire的标准，答对Follow Up是Strong Hire的标准。积极并正确的解决问题是加分（对应的是多交流）
 
 # 个人Tips
 ## Interviewer
@@ -98,5 +99,5 @@ No and it is banned from the Google Interview Question List.
 ## Interviewee
 
 * 选择白板
-* 多讨论少闷头自己琢磨
+* **多讨论少闷头自己琢磨**
 * 先把常见的corner case明确并写出（Null/ 0/ -1/ itself/ etc…），再写common case的方案，最后讨论完善——最优解。
