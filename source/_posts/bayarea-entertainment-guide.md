@@ -72,6 +72,7 @@ top: 10
 ## Palo Alto ~ Mountain View
 1. [ x ] **Madera**, Menlo Park (环境优美，周末午饭的话不是很贵，米其林一星)
 2. [ x ] Mitsunobu, Menlo Park (中高档日料)
+3. [ x ] Noodle Talk, Los Altos (请客吃饭的保险选择)
 
 ## Sunnyvale ~ Cupertino
 > 个人原因不是很喜欢韶山印象
@@ -79,12 +80,12 @@ top: 10
 2. [ x ] **Benihana**, Cupertino （日式铁板烧，需要预定）
 3. [ x ] Men-Bei Ramen, Santa Clara （推荐蛋包饭）
 4. [ x ] Crema Coffee Roasting Co, San Jose (甜品有Lady M)
-5. [ x ] Noodle Talk, Los Altos (请客吃饭的保险选择)
 6. [ x ] **Forthright Oyster Bar & Kitchen**, Campbell (Happy Hour的生蚝)
 7. [ x ] Soong Soong Chinese Restaurant, San Jose (煎饼果子和羊杂碎汤)
 8. [ x ] Hatcho Japanese Cuisine, Santa Clara
 10. [ x ] Taiwan Porridge Kingdom, Cupertino (喝南瓜粥的地方)
 11. [ x ] One Pot Shabu Shabu, Cupertino (日式火锅，需要排队)
+12. [ x ] Tofu Plus Korean BBQ, Cupertino (豆腐汤锅)
 
 ## Milpitas
 1. [ x ] Xian Kitchen, Milpitas (只收现金)

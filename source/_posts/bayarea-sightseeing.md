@@ -33,6 +33,10 @@ Standard是必去景点哦，从Stanford Oval开始，Memorial Court，Memorial 
 ## 南湾
 既然上文提到了这两家公司，那么问题来了，能不能参观呢？Facebook的话，是个封闭园区需要有人带才能进入，Google的话，是个开放园区，但园区里面其实也没有什么值得特别留念的地方，唯一特殊的便是Google Android Lawn Statues 我们称之为安卓墓园的地方吧，不大的土地上安放着历代安卓雕塑。（～也可以顺便找我～）
 
+## 番外
+吃喝玩乐请参考我之前的文章：
+
+[湾区吃喝玩乐推荐](http://joshuablog.herokuapp.com/bayarea-entertainment-guide.html)
 # 一周
 恭喜你获得了充分的时间进行旅行，在以上的基础上，推荐去Monterey，camel-by-the-sea看海，沙滩，17 miles。
 
@@ -41,7 +45,7 @@ Standard是必去景点哦，从Stanford Oval开始，Memorial Court，Memorial 
 至于LA的话，环球影城，迪斯尼公园，圣塔莫妮卡，Hollywood，Getty Center，The Huntington Library, Art Collections, and Botanical Gardens这些我觉得是需要打卡的地方。
 
 # 结
-各位看官可以根据你们朋友的时间长短，自由选择以上景点进行推荐。饭店的选择上，要是从国内来的话，咱们就不要推荐奶茶店，中餐馆了吧，可以找些本地特色菜（in-n-out？）或者日料，韩餐；要是中部大荒村，东海岸（除纽约），咱们还是带着去品尝Boiling Beijing， 岭南小馆，海底捞，鼎泰丰吧，毕竟还是需要给他们改善一下中餐伙食吧。
+各位看官可以根据你们朋友的时间长短，自由选择以上景点进行推荐。饭店的选择上，要是从国内来的话，咱们就不要推荐奶茶店，中餐馆了吧，可以找些本地特色菜（in-n-out？）或者日料，韩餐（烤肉或者豆腐汤锅）；要是中部大荒村，东海岸（除纽约），咱们还是带着去品尝Boiling Beijing， 岭南小馆，海底捞，鼎泰丰吧，毕竟还是需要给他们改善一下中餐伙食吧。
 
 Google Map
 
