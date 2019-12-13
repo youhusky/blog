@@ -25,6 +25,6 @@
     "hexo-server": "^0.3.3",
     "hexo-symbols-count-time": "^0.4.4",
     "hexo-tag-fontawesome": "^1.0.0",
-    "npm": "^6.6.0"
+    "npm": "^6.13.4"
   }
 }
